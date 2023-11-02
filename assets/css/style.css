@@ -4,6 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* generic style */
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic style */
+}
 
 /* header */
 header {
