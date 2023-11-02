@@ -1,3 +1,6 @@
+/* google font import */
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
 /* browser default override */
 * {
     padding: 0;
@@ -12,7 +15,7 @@ main {
     flex-direction: column;
     /* generic style */
 }
-
+/* header style */
 h1 {
     font-family: 'Kenia', sans-serif;
     text-align: center;
