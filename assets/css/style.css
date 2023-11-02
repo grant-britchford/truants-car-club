@@ -4,17 +4,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* generic style */
 main {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     /* generic style */
 }
 
-/* header */
-header {
-    background-color: aqua;
+h1 {
+    font-family: 'Kenia', sans-serif;
+    text-align: center;
+    font-size: 150px;
 }
 
 /* main body */
