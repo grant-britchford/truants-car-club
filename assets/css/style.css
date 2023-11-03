@@ -22,11 +22,17 @@
      flex-direction: column;
  }
 
+ header a {
+    text-decoration: none;
+ }
+
  #logo {
      font-family: 'Kenia', sans-serif;
      text-align: center;
      font-size: 100px;
      color: black;
+     letter-spacing: 2px;
+     text-transform: uppercase;
  }
 
  nav {
