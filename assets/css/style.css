@@ -1,4 +1,4 @@
-
+ 
 
 /* browser default override */
 * {
@@ -9,22 +9,38 @@
 
 /* generic style */
 main {
-    min-height: 90vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* generic style */
 }
-/* header style */
-h1 {
+
+/* header */
+header {
+    padding-inline-start: 30%;
+    padding-inline-end: 30%;
+    position: fixed;
+    z-index: 90;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
     font-family: 'Kenia', sans-serif;
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
     color: black;
+}
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* main body */
 main {
-    background-color: blue;
+    background-color: #ffffff;
 }
 
 /* footer */
