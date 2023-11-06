@@ -63,7 +63,6 @@
     font-size: 3rem;
     display: flex;
     align-self: self-end;
-    padding-right: 0.3rem;
  }
 
  li {
@@ -92,8 +91,23 @@
  }
 
  /* footer */
+ #social-media {
+     text-align: center;
+     padding: 10px;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ #social-media i {
+    font-size: 200%;
+    padding: 1rem;
+    color: #000000;
+ }
+
  footer {
-     background-color: chocolate;
+    text-align: center;
+    font-size: 1.2em;
+    border-top: 2px solid;
  }
 
  /* media query for tablets and larger */
