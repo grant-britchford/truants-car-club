@@ -21,3 +21,7 @@ TESTING
 Testing was carried out each day on both the HTML code and The CSS code. These tests were carried out using,
 *FreeFormatter Validator for the HTML validation.
 *CSSPortal for the CSS validation.
+DESIGN
+*media images sourced from canva.com
+*Favicon sourced from Icons8
+*Fonts sourced from Google Fonts
