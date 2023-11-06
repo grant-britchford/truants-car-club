@@ -54,13 +54,13 @@
  }
 
  #nav-toggle {
-    display: none;
+     display: none;
  }
 
  .nav-toggle-label {
-    font-size: 3rem;
-    display: flex;
-    align-self: flex-end;
+     font-size: 3rem;
+     display: flex;
+     align-self: flex-end;
  }
 
  li {
@@ -80,12 +80,18 @@
      color: #000000;
  }
 
-
-
  /* main body */
  main {
-     background-color: #ffffff;
-     position: inherit;
+     flex: 1 0 auto;
+     margin-top: 1px;
+ }
+
+ /* hero image settings */
+ #hero {
+     height: 965px;
+     width: 100%;
+     background: url("../images/94b29081a29e34434943acc39a6e87c5.jpg") no-repeat center center/cover;
+     
  }
 
  /* footer */
@@ -97,45 +103,45 @@
  }
 
  #social-media i {
-    font-size: 200%;
-    padding: 1rem;
-    color: #000000;
+     font-size: 200%;
+     padding: 1rem;
+     color: #000000;
  }
 
  footer {
-    text-align: center;
-    font-size: 1.2em;
-    border-top: 2px solid;
+     text-align: center;
+     font-size: 1.2em;
+     border-top: 2px solid;
  }
 
  /* media query for tablets and larger */
  @media screen and (min-width: 768px) {
-    
-    /* header */
-    nav {
-        display: block;
-        position: relative;
-    }
 
-    .nav-toggle-label {
-        display: none;
-    }
+     /* header */
+     nav {
+         display: block;
+         position: relative;
+     }
+
+     .nav-toggle-label {
+         display: none;
+     }
 
  }
 
  /* large device hover settings */
- @media  screen and (min-width: 992px) {
+ @media screen and (min-width: 992px) {
 
-    #home:hover {
-        color: #9900cc;
-    }
+     #home:hover {
+         color: #9900cc;
+     }
 
-    #events:hover {
-        color: #9900cc;
-    }
+     #events:hover {
+         color: #9900cc;
+     }
 
-    #sign-up:hover {
-        color: #9900cc;
-    }
-    
+     #sign-up:hover {
+         color: #9900cc;
+     }
+
  }
