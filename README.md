@@ -1,39 +1,43 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Truants Car Club
 
-Welcome,
+## Deployent
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Deployment was carried out when the basic structure of the website was done. this was to be able to find any bugs that needed fixing and to give the developer 
+a chance to check that any future work and updates sat where they were placed.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+The live link is: https://www.grant-britchford.github.io/truants-car-club/
 
-## Codeanywhere Reminders
+## Criteria
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+This website is for the owners of classic cars that would like to be able to show these cars at organised events.
+The website let's the owner look at forthcoming events that have been arranged and lets them join in with the events and
+lets them jouin the club if they so wish. The website also caters for the classic car enthusiast by letting them see the events details
+and letting them join up to a newsletter on classic car news.
 
-`python3 -m http.server`
+### Features
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+The website has features including, a nav bar element, a header element, a body element and a footer element. as well as icons and fonts.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Landing Page
 
-`http_server`
+The landing page is the first page you come to when you link to the site. This page gives you an overall outline of what the site is about
+and where to find each element.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Events Page
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Sign Up Page
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Footer
 
-To log into the Heroku toolbelt CLI:
+## Testing
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Testing was carried out each day on both the HTML code and The CSS code. These tests were carried out using,
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* FreeFormatter Validator for the HTML validation.
 
----
+* CSSPortal for the CSS validation.
 
-Happy coding!
+
+
+
+
