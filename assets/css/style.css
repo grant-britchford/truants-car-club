@@ -35,6 +35,7 @@
      color: black;
      letter-spacing: 2px;
      text-transform: uppercase;
+     line-height: 130px;
  }
 
  /* nav bar style with toggle feature */
@@ -60,8 +61,9 @@
 
  .nav-toggle-label {
     font-size: 3rem;
-    display: right;
+    display: flex;
     align-self: self-end;
+    padding-right: 0.3rem;
  }
 
  li {
@@ -92,4 +94,35 @@
  /* footer */
  footer {
      background-color: chocolate;
+ }
+
+ /* media query for tablets and larger */
+ @media screen and (min-width: 768px) {
+    /* header */
+    nav {
+        display: block;
+        position: relative;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+ }
+
+ /* large device hover settings */
+ @media  screen and (min-width: 992px) {
+
+    #home:hover {
+        color: #9900cc;
+    }
+
+    #events:hover {
+        color: #9900cc;
+    }
+
+    #sign-up:hover {
+        color: #9900cc;
+    }
+    
  }
