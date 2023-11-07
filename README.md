@@ -5,7 +5,7 @@ DEPLOYMENT
 Deployment was carried out when the basic structure of the website was done. this was to be able to find any bugs that needed fixing and to give the developer
 a chance to check that any future work and updates sat where they were placed.
 
-The live link is: <https://www.grant-britchford.github.io/truants-car-club/>
+The live link is: <https://grant-britchford.github.io/truants-car-club/>
 
 CRITERIA
 
