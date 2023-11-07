@@ -20,7 +20,8 @@
      z-index: 90;
      display: flex;
      flex-direction: column;
-     border-bottom: 2px solid;
+     border-bottom: 3px solid;
+     background-color: #004225;
 
  }
 
@@ -32,7 +33,7 @@
      font-family: 'Kenia', sans-serif;
      text-align: center;
      font-size: 90px;
-     color: black;
+     color: #ff2800;
      letter-spacing: 2px;
      text-transform: uppercase;
      line-height: 130px;
@@ -68,16 +69,16 @@
  }
 
  #home {
-     color: #000000;
+     color: #ffffff;
  }
 
  #events {
-     color: #000000;
+     color: #ffffff;
      padding: 3em;
  }
 
  #sign-up {
-     color: #000000;
+     color: #ffffff;
  }
 
  /* main body */
@@ -88,7 +89,7 @@
 
  /* hero image settings */
  #hero {
-     height: 965px;
+     height: 970px;
      width: 100%;
      background: url("../images/94b29081a29e34434943acc39a6e87c5.jpg") no-repeat center center/cover;
      
@@ -111,7 +112,8 @@
  footer {
      text-align: center;
      font-size: 1.2em;
-     border-top: 2px solid;
+     border-top: 3px solid;
+     background-color: #004225;
  }
 
  /* media query for tablets and larger */
