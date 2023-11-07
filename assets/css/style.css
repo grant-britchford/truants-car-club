@@ -106,6 +106,13 @@
 
  }
 
+ /* events page */
+ #meet {
+    height: 970px;
+    width: 100%;
+    background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
+ }
+
  /* footer */
  #social-media {
      text-align: center;
