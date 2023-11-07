@@ -60,8 +60,7 @@
 
  .nav-toggle-label {
      font-size: 3rem;
-     display: flex;
-     align-self: flex-end;
+     display: inline-flex;
  }
 
  li {
@@ -108,9 +107,44 @@
 
  /* events page */
  #meet {
-    height: 970px;
-    width: 100%;
-    background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
+     height: 970px;
+     width: 100%;
+     background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
+ }
+
+ #events {
+     font-family: 'Teko', sans-serif;
+     display: flex;
+     position: absolute;
+ }
+
+
+ #one {
+     text-align: center;
+     font-size: 1.6rem;
+     color: #0b0b60;
+     padding: 1em;
+ }
+
+ #two {
+     text-align: center;
+     font-size: 1.6rem;
+     color: #0b0b60;
+     padding: 1em;
+ }
+
+ #three {
+     text-align: center;
+     font-size: 1.6rem;
+     color: #0b0b60;
+     padding: 1em;
+ }
+
+ #four {
+     text-align: center;
+     font-size: 1.6rem;
+     color: #0b0b60;
+     padding: 1em;
  }
 
  /* footer */
