@@ -123,7 +123,7 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     background-color: rgba(239, 229, 229, 0.520);
+     /*background-color: ;*/
  }
 
  #two {
@@ -131,7 +131,7 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     background-color: rgba(239, 229, 229, 0.520);
+     /*background-color: #ff8000;*/
  }
 
  #three {
@@ -139,7 +139,7 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     background-color: rgba(239, 229, 229, 0.520);
+     /*background-color: #ff8000;*/
  }
 
  #four {
@@ -147,7 +147,7 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     background-color: rgba(239, 229, 229, 0.520);
+     /*background-color: #ff8000;*/
  }
 
  /* sign up page*/
@@ -176,6 +176,26 @@
      font-size: 1.2em;
      border-top: 3px solid;
      background-color: #004225;
+ }
+
+ /*media query for large phones */
+ @media screen and (min-width: 425px) {
+    
+    #one {
+        column-count: 1;
+    }
+
+    #two {
+        column-count: 1;
+    }
+
+    #three {
+        column-count: 1;
+    }
+
+    #four {
+        column-count: 1;
+    }
  }
 
  /* media query for tablets and larger */
