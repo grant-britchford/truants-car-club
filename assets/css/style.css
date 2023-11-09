@@ -150,6 +150,13 @@
      background-color: rgba(239, 229, 229, 0.520);
  }
 
+ /* sign up page*/
+ #form {
+    height: 970px;
+    width: 100%;
+    background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
+ }
+
  /* footer */
  #social-media {
      text-align: center;
