@@ -39,9 +39,9 @@ Testing was carried out each day on both the HTML code and The CSS code. These t
 
 DESIGN
 
-*All colors are sourced from google color charts and are specific to racing colors of the Formula 1.
+*All colors are sourced from google color charts and are specific to racing colors of Formula 1.
 
-*media images sourced from canva.com
+*media images sourced from canva and pexel image sites.
 
 *Favicon sourced from Icons8
 
