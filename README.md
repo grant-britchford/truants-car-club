@@ -25,9 +25,15 @@ and where to find each element.
 
 EVENTS PAGE
 
+The events page is the second page on the site and holds the details for upcoming events. The header is the same and the footer is the same the difference is the background image and the layout of the events.
+
 SIGN UP PAGE
 
+the sign up page again has the same header and footer as the rest of the pages and has a different background image and has the form to be be filled out and sent.
+
 FOOTER
+
+The footer is a basic footer showing the media links associated with club and copyright information.
 
 TESTING
 
@@ -46,3 +52,7 @@ DESIGN
 *Favicon sourced from Icons8
 
 *Fonts sourced from Google Fonts and are matched to the car idea.
+
+IMPROVEMENTS
+
+I would like to add a map to the bottom of the events page with pins in to show excat location of the events and to show the charity run route so the general public know where the cars are heading to and which towns and cities their going thhrough.
