@@ -45,8 +45,75 @@
     </header>
     <main>
       <section id="signup">
-        <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+        <form
+          id="signup-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
           <h2>Sign up and drive with us!</h2>
+          <br />
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="email_address">Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+          <br />
+          <div class="radio-buttons">
+            <label for="owner">Owner</label>
+            <input
+              type="radio"
+              name="owner_preference"
+              id="owner"
+              value="owner"
+              required
+              checked
+            />
+          </div>
+          <div class="radio-buttons">
+            <label for="aficionado">Aficionado</label>
+            <input
+              type="radio"
+              name="aficionado_preference"
+              id="aficionado"
+              value="aficionado"
+              required
+              checked
+            />
+          </div>
+          <div class="radio-buttons">
+            <label for="newsletter">Newsletter</label>
+            <input
+              type="radio"
+              name="newsletter_preference"
+              id="newsletter"
+              value="newsletter"
+              required
+              checked
+            />
+          </div>
+          <br>
+          <button type="submit" class="join-button">Submit</button>
         </form>
       </section>
     </main>

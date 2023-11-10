@@ -115,6 +115,7 @@
      font-family: 'Teko', sans-serif;
      display: flex;
      justify-content: space-evenly;
+     flex-direction: row;
  }
 
 
@@ -123,7 +124,6 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     /*background-color: ;*/
  }
 
  #two {
@@ -131,7 +131,6 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     /*background-color: #ff8000;*/
  }
 
  #three {
@@ -139,7 +138,6 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     /*background-color: #ff8000;*/
  }
 
  #four {
@@ -147,7 +145,6 @@
      font-size: 1.6rem;
      color: #0b0b60;
      padding: 1em;
-     /*background-color: #ff8000;*/
  }
 
  /* sign up page*/
@@ -157,13 +154,56 @@
     background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
  }
 
+ main{
+    display: flex;
+    flex-direction: column;
+ }
+
+ #signup-form {
+    background-color: rgba(236, 233, 234, 0.52);
+    border: 50px;
+    width: 40%;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 1em;
+    font-weight: bold;
+ }
+
  h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2.4em;
     color: #0b0b60;
-    background-color: rgba(236, 233, 234, 0.52);
     margin-left: 1em;
-    width: 40%;
+    text-align: left;
+    text-align: center;
+ }
+
+ .text-input {
+    background: transparent;
+    width: 30%;
+    height: 25px;
+    margin: 5px 0 25px 0;
+    border: 2px solid;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+ }
+
+ .radio-buttons {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+ }
+
+ .join-button {
+    margin-top: 20px;
+    border-radius: 4px;
+    padding: 7px 18px;
+    font-size: 15px;
+    background-color: #0b0b60;
+    color: #ffffff;
+    margin-bottom: 1em;
  }
 
  /* footer */
@@ -191,19 +231,23 @@
  @media screen and (min-width: 425px) {
     
     #one {
-        column-count: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     #two {
-        column-count: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     #three {
-        column-count: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     #four {
-        column-count: 1;
+        display: flex;
+        flex-direction: column;
     }
  }
 
@@ -220,6 +264,11 @@
          display: none;
      }
 
+ }
+
+ #signup {
+    background-position: center;
+    position: relative;
  }
 
  /* large device hover settings */
