@@ -56,6 +56,7 @@
             id="first_name"
             class="text-input"
             required
+            check
           >
           <br>
           <label for="last_name">Last Name</label>
@@ -65,6 +66,7 @@
             id="last_name"
             class="text-input"
             required
+            check
           >
           <br>
           <label for="email_address">Email Address</label>
@@ -80,8 +82,8 @@
             <label for="owner">Owner</label>
             <input
               type="radio"
-              name="owner"
-              id="owner"
+              id="Owner"
+              name="preference"
               value="owner"
               required
             >
@@ -90,8 +92,8 @@
             <label for="aficionado">Aficionado</label>
             <input
               type="radio"
-              name="aficionado"
               id="aficionado"
+              name="preference"
               value="aficionado"
               required
             >
@@ -100,11 +102,11 @@
             <label for="newsletter">Newsletter</label>
             <input
               type="radio"
+              id="Newsletter"
               name="newsletter"
-              id="newsletter"
               value="newsletter"
               required
-            >
+              >
           </div>
           <br>
           <button type="submit" class="join-button">Submit</button>
