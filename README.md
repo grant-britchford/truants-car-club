@@ -43,7 +43,7 @@ Testing was carried out each day on both the HTML code and The CSS code. These t
 
 *CSSPortal for the CSS validation.
 
-Final CSS validation link: <http://jigsaw.w3.org/css-validator/validator$link>
+Final CSS validation link: <http://jigsaw.w3.org/css-validator/check/referer>
 
 DESIGN
 
