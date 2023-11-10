@@ -120,6 +120,7 @@
 
 
  #one {
+    display: flex;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
@@ -127,6 +128,7 @@
  }
 
  #two {
+    display: flex;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
@@ -134,6 +136,7 @@
  }
 
  #three {
+    display: flex;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
@@ -141,6 +144,7 @@
  }
 
  #four {
+    display: flex;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
@@ -149,6 +153,7 @@
 
  /* sign up page*/
  #signup {
+    display: flex;
      height: 970px;
      width: 100%;
      background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
@@ -161,8 +166,9 @@
 
  #signup-form {
      background-color: rgba(236, 233, 234, 0.52);
-     border: 50px;
+     border: 10px;
      width: 40%;
+     height: 32%;
      text-align: center;
      margin-top: 15%;
      margin-left: 30%;
