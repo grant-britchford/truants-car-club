@@ -72,13 +72,14 @@
  #events {
      color: #ffffff;
      padding-left: 2em;
-     
+
  }
 
  #sign-up {
      color: #ffffff;
      padding-left: 2em;
  }
+
  /* main body */
  main {
      flex: 1 0 auto;
@@ -149,61 +150,61 @@
 
  /* sign up page*/
  #signup {
-    height: 970px;
-    width: 100%;
-    background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
+     height: 970px;
+     width: 100%;
+     background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
  }
 
- main{
-    display: flex;
-    flex-direction: column;
+ main {
+     display: flex;
+     flex-direction: column;
  }
 
  #signup-form {
-    background-color: rgba(236, 233, 234, 0.52);
-    border: 50px;
-    width: 40%;
-    text-align: center;
-    margin-top: 15%;
-    margin-left: 30%;
-    font-size: 1em;
-    font-weight: bold;
+     background-color: rgba(236, 233, 234, 0.52);
+     border: 50px;
+     width: 40%;
+     text-align: center;
+     margin-top: 15%;
+     margin-left: 30%;
+     font-size: 1em;
+     font-weight: bold;
  }
 
  h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.4em;
-    color: #0b0b60;
-    margin-left: 1em;
-    text-align: left;
-    text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 2.4em;
+     color: #0b0b60;
+     margin-left: 1em;
+     text-align: left;
+     text-align: center;
  }
 
  .text-input {
-    background: transparent;
-    width: 30%;
-    height: 25px;
-    margin: 5px 0 25px 0;
-    border: 2px solid;
-    border-radius: 4px;
-    padding: 5px;
-    font-weight: bold;
+     background: transparent;
+     width: 30%;
+     height: 25px;
+     margin: 5px 0 25px 0;
+     border: 2px solid;
+     border-radius: 4px;
+     padding: 5px;
+     font-weight: bold;
  }
 
  .radio-buttons {
-    display: inline-flex;
-    justify-content: space-between;
-    margin-left: 1rem;
+     display: inline-flex;
+     justify-content: space-between;
+     margin-left: 1rem;
  }
 
  .join-button {
-    margin-top: 20px;
-    border-radius: 4px;
-    padding: 7px 18px;
-    font-size: 15px;
-    background-color: #0b0b60;
-    color: #ffffff;
-    margin-bottom: 1em;
+     margin-top: 20px;
+     border-radius: 4px;
+     padding: 7px 18px;
+     font-size: 15px;
+     background-color: #0b0b60;
+     color: #ffffff;
+     margin-bottom: 1em;
  }
 
  /* footer */
@@ -229,26 +230,26 @@
 
  /*media query for large phones */
  @media screen and (min-width: 425px) {
-    
-    #one {
-        display: flex;
-        flex-direction: column;
-    }
 
-    #two {
-        display: flex;
-        flex-direction: column;
-    }
+     #one {
+         display: flex;
+         flex-direction: column;
+     }
 
-    #three {
-        display: flex;
-        flex-direction: column;
-    }
+     #two {
+         display: flex;
+         flex-direction: column;
+     }
 
-    #four {
-        display: flex;
-        flex-direction: column;
-    }
+     #three {
+         display: flex;
+         flex-direction: column;
+     }
+
+     #four {
+         display: flex;
+         flex-direction: column;
+     }
  }
 
  /* media query for tablets and larger */
@@ -267,8 +268,8 @@
  }
 
  #signup {
-    background-position: center;
-    position: relative;
+     background-position: center;
+     position: relative;
  }
 
  /* large device hover settings */
