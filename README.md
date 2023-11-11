@@ -43,8 +43,6 @@ Testing was carried out each day on both the HTML code and The CSS code. These t
 
 *CSSPortal for the CSS validation.
 
-Final CSS validation link: <https://jigsaw.w3.org/css-validator/validator$link>
-
 DESIGN
 
 *All colors are sourced from google color charts and are specific to racing colors of Formula 1.
