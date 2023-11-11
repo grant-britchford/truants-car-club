@@ -46,6 +46,7 @@
      font-size: 25px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      max-width: 100%;
+     display: none;
  }
 
  /* nav toggle */
