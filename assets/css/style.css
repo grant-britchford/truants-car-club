@@ -51,7 +51,7 @@
 
  /* nav toggle */
  #nav-toggle:checked~nav {
-     display: block;
+     display: inline;
  }
 
  #nav-toggle {
@@ -66,7 +66,7 @@
  }
 
  li {
-     display: inline-table;
+     display: inline-flex;
      justify-content: space-evenly;
      max-width: 100%;
  }
@@ -119,45 +119,53 @@
      background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
  }
 
- #events {
-     font-family: 'Teko', sans-serif;
-     display: flex;
-     justify-content: space-evenly;
-     flex-direction: row;
-     vertical-align: middle;
+ main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
  }
 
+ #overlay-text1 {
+    position: column;
+    background-color: rgba(255, 87, 51, 0.52);
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    columns: 2;
+
+ }
 
  #one {
-    display: flex;
+     display: flex column;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
-     padding: 1em;
+     padding: .4rem;
+     margin-right: 2rem;
  }
 
  #two {
-    display: flex;
+     display: flex column;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
-     padding: 1em;
+     padding: .4em;
  }
 
  #three {
-    display: flex;
+     display: flex column;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
-     padding: 1em;
+     padding: .4em;
+     box-sizing: content-box;
  }
 
  #four {
-    display: flex;
+     display: flex column;
      text-align: center;
      font-size: 1.6rem;
      color: #0b0b60;
-     padding: 1em;
+     padding: .4em;
  }
 
  /* sign up page*/
@@ -245,31 +253,6 @@
      border-top: 3px solid;
      background-color: #004225;
      max-width: 100%;
- }
-
-
- /*media query for large phones */
- @media screen and (min-width: 425px) {
-
-     #one {
-         display: flex;
-         flex-direction: column;
-     }
-
-     #two {
-         display: flex;
-         flex-direction: column;
-     }
-
-     #three {
-         display: flex;
-         flex-direction: column;
-     }
-
-     #four {
-         display: flex;
-         flex-direction: column;
-     }
  }
 
  /* media query for tablets and larger */
