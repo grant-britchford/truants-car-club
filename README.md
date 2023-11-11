@@ -33,7 +33,7 @@ the sign up page again has the same header and footer as the rest of the pages a
 
 FOOTER
 
-The footer is a basic footer showing the media links associated with club and copyright information.
+The footer is a basic footer showing the media links associated with the club and copyright information.
 
 TESTING
 
