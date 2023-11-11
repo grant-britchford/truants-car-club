@@ -41,6 +41,7 @@
 
  /* nav bar style with toggle feature */
  nav {
+     position: relative;
      text-align: center;
      font-size: 25px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +58,10 @@
  }
 
  .nav-toggle-label {
+     position: absolute;
      font-size: 3em;
+     margin-top: 6rem;
+     margin-left: 24rem;
  }
 
  li {
