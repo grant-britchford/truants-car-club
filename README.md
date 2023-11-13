@@ -43,6 +43,7 @@ Testing was carried out each day on both the HTML code and The CSS code. These t
 *CSSPortal for the CSS validation.
 
 Final validation was carried out using w3.org's HTML mark up validator and the CSS validator all which passed as shown below.
+
 *Index.HTML
 ![index html validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/f0b21635-bee6-4e57-839a-9f14a75d8333)
 
