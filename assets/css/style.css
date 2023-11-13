@@ -302,6 +302,11 @@
         font-size: 20px;
     }
 
+    /* menu label */
+    .nav-toggle-label {
+        margin-left: 18rem;
+    }
+
     /* overlay text */
     #overlay-text {
         font-size: 25px;
