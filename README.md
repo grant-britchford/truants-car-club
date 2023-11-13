@@ -16,7 +16,7 @@ and letting them join up to a newsletter on classic car news.
 
 FEATURES
 
-The website has features including, a nav bar element, a header element, a body element and a footer element. as well as icons and fonts.
+The website has responsiveness on all devices and features a dropdown menu on devices smaller than a tablet.
 
 LANDING PAGE
 
@@ -25,7 +25,7 @@ and where to find each element.
 
 EVENTS PAGE
 
-The events page is the second page on the site and holds the details for upcoming events. The header is the same and the footer is the same the difference is the background image and the layout of the events.
+The events page is the second page on the site and holds the details of upcoming events. The header is the same and the footer is the same the difference is the background image and the layout of the events.
 
 SIGN UP PAGE
 
@@ -40,12 +40,23 @@ TESTING
 Testing was carried out each day on both the HTML code and The CSS code. These tests were carried out using,
 
 *FreeFormatter Validator for the HTML validation.
-
 *CSSPortal for the CSS validation.
+
+Final validation was carried out using w3.org's HTML mark up validator and the CSS validator all which passed as shown below.
+
+![index html validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/f0b21635-bee6-4e57-839a-9f14a75d8333)
+![events html validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/4f6a491b-9a3d-4f8f-a530-1208e7809fc7)
+![sign up validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/d3fab2fb-7cd2-4030-9ad0-2fc29ff8801a)
+![CSS validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/2b4f64ce-ab38-47ed-b73c-ce072ca3bd1c)
+
+Testing was carried out on the colour contrast's as well and can be found below.
+![header contrast validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/175dd734-5753-48e1-a72e-aebc41f28fc9)
+![events contrast validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/b47b1e35-1596-470b-80e2-c95b10b58dee)
+![footer validation contrast](https://github.com/grant-britchford/truants-car-club/assets/145594323/8acc9197-b65a-417e-aeb2-f4037fd1a87e)
 
 DESIGN
 
-*All colors are sourced from google color charts and are specific to racing colors of Formula 1.
+*All colors are sourced from google color charts and are specific to racing colors of Formula 1. Some of these colors were slightly changed to pass the color contrast tests.
 
 *media images sourced from canva and pexel image sites.
 
