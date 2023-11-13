@@ -25,15 +25,15 @@ and letting them join up to a newsletter on classic car news.
 
 FEATURES
 
-*Truants Car Club website includes of a header and footer on every page, and are responsive over all devices.
+*Truants Car Club website includes a header and footer on every page, and are responsive over all devices.
 
-*All pages on mobile have a drop down nav bar menu to save space and have a menu toggle button to show how to reveal the menu, and this button is in the same place on all mobile devices.
+*All pages on mobile have a drop down nav bar menu to save space and has a menu toggle button to show how to reveal the menu. This button is in the same place on all mobile devices.
 
 *On laptops and desktop computers the navbar menu is constantly open, but has a color change when hovering over the menu items. All pages are connected so the user doesn't need to use the back button.
 
 LANDING PAGE
 
-The landing page is the first page the user will come to when connecting to the site. This page is made up of the Header and Body, which consists of a background image and an About sectionfor the user to see what can be done and how to get there.
+The landing page is the first page the user will come to when connecting to the site. This page is made up of the Header and Body, which consists of a background image and an About sectio for the user to see what can be done and how to get there.
 
 
 EVENTS PAGE
@@ -42,7 +42,7 @@ The events page is the second page on the site and holds the details of upcoming
 
 SIGN UP PAGE
 
-the sign up page is the last page on the website and again consists of a background iamge with the header above and holds the Sign up form forn owners and aficionados to sign up for the club or a newsletter.
+the sign up page is the last page on the website and again consists of a background image with the header above and holds the Sign up form for owners and aficionados to sign up for the club or a newsletter.
 
 FOOTER
 
@@ -93,4 +93,4 @@ CREDITS
 
 IMPROVEMENTS
 
-I would like to add a map to the bottom of the events page with pins in to show excat location of the events and to show the charity run route so the general public know where the cars are heading to and which towns and cities their going thhrough.
+I would like to add a map to the bottom of the events page with pins in to show the exact location of the events and to show the charity run route so the general public know where the cars are heading to and which towns and cities they're going through.
