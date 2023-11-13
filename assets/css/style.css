@@ -32,7 +32,7 @@
  #logo {
      font-family: 'Kenia', sans-serif;
      text-align: center;
-     font-size: 90px;
+     font-size: 85px;
      color: #8a1500;
      letter-spacing: 2px;
      text-transform: uppercase;
@@ -59,10 +59,11 @@
  }
 
  .nav-toggle-label {
+     display: flex;
      position: absolute;
      font-size: 2.5em;
      margin-top: 6.5rem;
-     margin-left: 21rem;
+     margin-left: 21.7rem;
  }
 
  li {
@@ -101,15 +102,23 @@
 
  }
 
+ .top-left {
+    display: flex;
+    flex-direction: column;
+    top: 31.8em;
+    left: .5em;
+    width: 37%;
+    padding: 1rem;
+ }
+
  #overlay-text {
      font-family: 'Lobster', sans-serif;
-     font-size: 34px;
+     font-size: 28px;
      text-align: center;
      position: absolute;
      margin-top: -38rem;
      color: #0b0b60;
-     background-color: rgba(255, 87, 51, 0.520);
-
+     background-color: rgba(255, 255, 255, 0.52);
  }
 
  /* events page */
