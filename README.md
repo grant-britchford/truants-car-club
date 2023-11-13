@@ -84,6 +84,11 @@ Testing was carried out on the colour contrast's as well and can be found below.
 Footer Color
 ![footer validation contrast](https://github.com/grant-britchford/truants-car-club/assets/145594323/8acc9197-b65a-417e-aeb2-f4037fd1a87e)
 
+Testing was carried out on the sign up form to make sure that the information would be sent.
+
+*Sign up form validation
+![email validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/1484517f-f440-4d62-97b2-af7d5f66e213)
+
 CREDITS
 
 *All colors are sourced from google color charts and are specific to racing colors of Formula 1. Some of these colors were slightly changed to pass the color contrast tests.
