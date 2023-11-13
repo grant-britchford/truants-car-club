@@ -22,7 +22,7 @@
      display: flex;
      flex-direction: column;
      border-bottom: 3px solid;
-     background-color: #004225;
+     background-color: #8affca;
  }
 
  header a {
@@ -33,7 +33,7 @@
      font-family: 'Kenia', sans-serif;
      text-align: center;
      font-size: 90px;
-     color: #ff2800;
+     color: #8a1500;
      letter-spacing: 2px;
      text-transform: uppercase;
      line-height: 130px;
@@ -72,17 +72,17 @@
  }
 
  #home {
-     color: #ffffff;
+     color: #3d3d3d;
  }
 
  #events {
-     color: #ffffff;
+     color: #3d3d3d;
      padding-left: 2em;
 
  }
 
  #sign-up {
-     color: #ffffff;
+     color: #3d3d3d;
      padding-left: 2em;
  }
 
@@ -257,8 +257,9 @@
      text-align: center;
      font-size: 1.2em;
      border-top: 3px solid;
-     background-color: #004225;
+     background-color: #8affca;
      max-width: 100%;
+     padding: 1em;
  }
 
  /* media query for tablets and larger */
