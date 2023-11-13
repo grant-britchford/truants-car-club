@@ -63,7 +63,7 @@
      position: absolute;
      font-size: 2.5em;
      margin-top: 6.5rem;
-     margin-left: 21.7rem;
+     margin-left: 18rem;
  }
 
  li {
@@ -137,26 +137,26 @@
 
  #overlay-text1 {
     position: column;
-    background-color: rgba(255, 87, 51, 0.52);
+    background-color: #ff8a14;
     margin-top: 1rem;
     justify-content: space-evenly;
     columns: 2;
-
+    column-gap: 2em;
  }
 
  #one {
      display: flex column;
      text-align: center;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
      color: #0b0b60;
      padding: .4rem;
-     margin-right: 2rem;
+     margin-right: 1em;
  }
 
  #two {
      display: flex column;
      text-align: center;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
      color: #0b0b60;
      padding: .4em;
  }
@@ -164,7 +164,7 @@
  #three {
      display: flex column;
      text-align: center;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
      color: #0b0b60;
      padding: .4em;
  }
@@ -172,7 +172,7 @@
  #four {
      display: flex column;
      text-align: center;
-     font-size: 1.6rem;
+     font-size: 1.4rem;
      color: #0b0b60;
      padding: .4em;
  }
@@ -269,6 +269,42 @@
      background-color: #8affca;
      max-width: 100%;
      padding: 1em;
+ }
+
+ /* media query for 320px phone and larger */
+ @media screen and (min-width: 320px) {
+
+    /*dropdown menu list */
+    li {
+        display: inline-flex;
+        font-size: 20px;
+    }
+ }
+
+ /* media query for 375px phones and larger */
+ @media screen and (min-width: 375px) {
+
+/* nav bar label */
+    .nav-toggle-label {
+        margin-left: 21rem;
+    }
+
+    li {
+        display: inline-flex;
+    }
+ }
+
+ /* media query for 425px phones and larger */
+ @media screen and (min-width: 425px) {
+
+    /* nav bar label */
+    .nav-toggle-label {
+        margin-left: 24rem;
+    }
+
+    li {
+        display: inline-flex;
+    }
  }
 
  /* media query for tablets and larger */
