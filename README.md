@@ -43,15 +43,27 @@ Testing was carried out each day on both the HTML code and The CSS code. These t
 *CSSPortal for the CSS validation.
 
 Final validation was carried out using w3.org's HTML mark up validator and the CSS validator all which passed as shown below.
-
+*Index.HTML
 ![index html validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/f0b21635-bee6-4e57-839a-9f14a75d8333)
+
+Events.HTML
 ![events html validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/4f6a491b-9a3d-4f8f-a530-1208e7809fc7)
+
+Sign Up.HTML
 ![sign up validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/d3fab2fb-7cd2-4030-9ad0-2fc29ff8801a)
+
+*CSS
 ![CSS validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/2b4f64ce-ab38-47ed-b73c-ce072ca3bd1c)
 
 Testing was carried out on the colour contrast's as well and can be found below.
+
+*Header Color
 ![header contrast validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/175dd734-5753-48e1-a72e-aebc41f28fc9)
+
+*body Color
 ![events contrast validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/b47b1e35-1596-470b-80e2-c95b10b58dee)
+
+Footer Color
 ![footer validation contrast](https://github.com/grant-britchford/truants-car-club/assets/145594323/8acc9197-b65a-417e-aeb2-f4037fd1a87e)
 
 DESIGN
