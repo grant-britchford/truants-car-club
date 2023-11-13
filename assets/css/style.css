@@ -136,7 +136,6 @@
  }
 
  #overlay-text-one {
-    position: column;
     background-color: #ff8a14;
     margin-top: 1rem;
     justify-content: space-evenly;
@@ -145,7 +144,7 @@
  }
 
  #event-one {
-     display: flex column;
+     display: flex;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
@@ -154,7 +153,6 @@
  }
 
  #overlay-text-two {
-     position: column;
      background-color: #ff8a14;
      margin-top: 1rem;
      justify-content: space-evenly;
@@ -163,7 +161,7 @@
  }
 
  #event-two {
-     display: flex column;
+     display: flex;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
@@ -171,7 +169,6 @@
  }
 
  #overlay-text-three {
-     position: column;
      background-color: #ff8a14;
      margin-top: 1rem;
      justify-content: space-evenly;
@@ -180,7 +177,7 @@
  }
 
  #event-three {
-     display: flex column;
+     display: flex;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
@@ -188,7 +185,6 @@
  }
 
  #overlay-text-four {
-     position: column;
      background-color: #ff8a14;
      margin-top: 1rem;
      justify-content: space-evenly;
@@ -197,7 +193,7 @@
  }
 
  #event-four {
-     display: flex column;
+     display: flex;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
@@ -218,16 +214,15 @@
  }
 
  #signup-form {
-     display: flex column;
      box-sizing: content-box;
      border: 2px solid;
      background-color: #ff8a14;
      border: 10px;
-     width: 30%;
+     width: 35%;
      height: 30%;
      text-align: center;
      margin-top: 4%;
-     margin-left: 30%;
+     margin-left: 40%;
      font-size: 1em;
      font-weight: bold;
  }
@@ -341,12 +336,13 @@
 
     /* sign up form */
     #signup-form {
-        height: 48%;
+        height: 44%;
     }
 
     /* submit button */
     .join-button {
-        margin-top: 3rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
     }
  }
 
@@ -360,6 +356,11 @@
 
     li {
         display: inline-flex;
+    }
+
+    /* submit button */
+    .join-button {
+        margin-left: 3rem;
     }
  }
 
@@ -380,11 +381,16 @@
         margin-top: -38rem;
      }
 
- }
+     /* sign up */
+     #signup-form {
+        margin-left: 14rem;
+        height: 38%;
+     }
 
- #signup {
-     background-position: center;
-     position: relative;
+     .join-button {
+        margin-left:7rem;
+     }
+
  }
 
  /* large device hover settings */
@@ -403,3 +409,33 @@
      }
 
  }
+
+ /* media query for 1024px and over */
+ @media screen and (min-width: 1024px) {
+
+    /* sign up box */
+    #signup-form {
+        margin-left: 18rem;
+        height: 32%;
+    }
+
+    /* submit button */
+    .join-button {
+        margin-left: 10rem;
+    }
+ }
+
+ /* media query for 2560px and larger */
+ @media screen and (min-width: 2560px) {
+
+    /* sign up box */
+    #signup-form {
+        width: 20%;
+    }
+
+    /* submit button */
+    .join-button {
+        margin-left: 13rem;
+    }
+ }
+
