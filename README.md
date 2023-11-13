@@ -2,8 +2,15 @@
 
 DEPLOYMENT
 
-Deployment was carried out when the basic structure of the website was done. this was to be able to find any bugs that needed fixing and to give the developer
-a chance to check that any future work and updates sat where they were placed.
+Deployment was carried out when the basic structure of the website was done. 
+
+*This was done by using the following steps on GitHub.
+
+     From the GitHub repository, Go to the settings tab.
+     From the source section drop-down menu, select the Main Branch
+     Once the Master branch has been selected the page will refresh to show a detatailed ribbon which will show the successful deployment
+
+
 
 The live link is: <https://grant-britchford.github.io/truants-car-club/>
 
