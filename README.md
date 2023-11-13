@@ -40,6 +40,7 @@ TESTING
 Testing was carried out each day on both the HTML code and The CSS code. These tests were carried out using,
 
 *FreeFormatter Validator for the HTML validation.
+
 *CSSPortal for the CSS validation.
 
 Final validation was carried out using w3.org's HTML mark up validator and the CSS validator all which passed as shown below.
