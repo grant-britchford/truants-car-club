@@ -91,13 +91,13 @@
  main {
      flex: 1 0 auto;
      margin-top: 1px;
-     max-width: 100%;
+     /*max-width: 100%;*/
  }
 
  /* hero image settings */
  #hero {
-     height: 970px;
-     width: 100%;
+     height: 100vh;
+     width: 100vw;
      background: url("../images/94b29081a29e34434943acc39a6e87c5.jpg") no-repeat center center/cover;
 
  }
@@ -105,7 +105,7 @@
  .top-left {
     display: flex;
     flex-direction: column;
-    top: 31.8em;
+    top: 40em;
     left: .5em;
     width: 37%;
     padding: 1rem;
@@ -116,14 +116,14 @@
      font-size: 28px;
      text-align: center;
      position: absolute;
-     margin-top: -38rem;
+     /*margin-top: -38rem;*/
      color: #0b0b60;
-     background-color: rgba(255, 255, 255, 0.52);
+     background-color: #ffffff;
  }
 
  /* events page */
  #meet {
-     height: 970px;
+     height: 100vh;
      width: 100%;
      background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
  }
@@ -203,7 +203,7 @@
  /* sign up page*/
  #signup {
      display: flex;
-     height: 970px;
+     height: 100vh;
      width: 100%;
      background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
  }
@@ -432,6 +432,11 @@
 
  /* media query for 2560px and larger */
  @media screen and (min-width: 2560px) {
+
+    /*overlay text*/
+    .top-left {
+        top: 50em;
+    }
 
     /* sign up box */
     #signup-form {
