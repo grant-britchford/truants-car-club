@@ -67,9 +67,9 @@
  }
 
  li {
-     display: inline-flex;
-     justify-content: space-evenly;
-     max-width: 100%;
+     display: inline;
+     /*justify-content: space-between;*/
+     /*width: 100vw;*/
  }
 
  #home {
@@ -91,7 +91,6 @@
  main {
      flex: 1 0 auto;
      margin-top: 1px;
-     /*max-width: 100%;*/
  }
 
  /* hero image settings */
@@ -116,7 +115,6 @@
      font-size: 28px;
      text-align: center;
      position: absolute;
-     /*margin-top: -38rem;*/
      color: #0b0b60;
      background-color: #ffffff;
  }
@@ -132,7 +130,7 @@
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    max-width: 100%;
+    width: 100%;
  }
 
  #overlay-text-one {
@@ -209,20 +207,17 @@
  }
 
  main {
-     max-width: 100%;
-     justify-content: space-evenly;
+     width: 100vw;
  }
 
  #signup-form {
-     box-sizing: content-box;
+     
      border: 2px solid;
-     background-color: #ff8a14;
+     background-color: #424242;
+     color: #dfdffb;
      border: 10px;
-     width: 35%;
-     height: 30%;
      text-align: center;
      margin-top: 4%;
-     margin-left: 40%;
      font-size: 1em;
      font-weight: bold;
  }
@@ -231,10 +226,8 @@
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      font-size: 2em;
      text-align: center;
-     color: #0b0b60;
-     max-width: 100%;
-     display: flex;
-     padding-left: 3%;
+     color: #dfdffb;
+     width: 100%;
  }
 
  .text-input {
@@ -247,26 +240,26 @@
      border-radius: 4px;
      padding: .2em;
      font-weight: bold;
+     color: #dfdffb;
  }
 
  .radio-buttons {
-     justify-content: space-between;
      margin-left: .7rem;
-     max-width: 100%;
+     width: 100%;
      margin-top: 0.8rem;
-     display: inline-flex;
+     text-align: center;
  }
 
  .join-button {
+    margin-right: 10em;
+     cursor: pointer;
      border-radius: 4px;
      padding: 7px 18px;
      font-size: 15px;
-     background-color: #0b0b60;
-     color: #ffffff;
-     max-width: 100%;
-     margin-left: 1rem;
-     display: flex;
-     margin-top: .4rem;
+     background-color: #ffffff;
+     color: #000000;
+     font-weight: bold;
+     margin-top: 1rem;
      margin-bottom: .4rem;
  }
 
@@ -298,7 +291,7 @@
 
     /*dropdown menu list */
     li {
-        display: inline-flex;
+        display: inline;
         font-size: 20px;
     }
 
@@ -325,6 +318,7 @@
         margin-top: 2rem;
         margin-left: 1rem;
     }
+
  }
 
  /* media query for 375px phones and larger */
@@ -336,7 +330,7 @@
     }
 
     li {
-        display: inline-flex;
+        display: inline;
     }
 
     /* sign up form */
@@ -360,7 +354,7 @@
     }
 
     li {
-        display: inline-flex;
+        display: inline;
     }
 
     /* submit button */
@@ -440,7 +434,8 @@
 
     /* sign up box */
     #signup-form {
-        width: 20%;
+        width: 30%;
+        height: 40%;
     }
 
     /* submit button */
