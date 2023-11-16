@@ -68,8 +68,7 @@
 
  li {
      display: inline;
-     /*justify-content: space-between;*/
-     /*width: 100vw;*/
+     padding: 2em;
  }
 
  #home {
@@ -78,13 +77,11 @@
 
  #events {
      color: #3d3d3d;
-     padding-left: 2em;
 
  }
 
  #sign-up {
      color: #3d3d3d;
-     padding-left: 2em;
  }
 
  /* main body */
@@ -120,82 +117,142 @@
  }
 
  /* events page */
- #meet {
-     height: 100vh;
-     width: 100%;
-     background: url("../images/pexels-ömer-derinyar-18839435.jpg") no-repeat center center/cover;
- }
-
- main {
+  main {
     flex: 1 0 auto;
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    width: 100vw;
  }
 
- #overlay-text-one {
+ #one {
+    box-sizing: content-box;
     background-color: #ff8a14;
-    margin-top: 1rem;
-    justify-content: space-evenly;
-    columns: 2;
-    column-gap: 2em;
+    margin-top: 1.5rem;
+    padding: 2em;
+    border: 2px solid;
+    box-shadow: #000000 5px 5px;
  }
 
  #event-one {
-     display: flex;
+     display: inline-block;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
-     padding: .4rem;
+     padding: 4rem;
      margin-right: 1em;
+     margin-left: -10em;
  }
 
- #overlay-text-two {
+ #two {
+     box-sizing: content-box;
      background-color: #ff8a14;
-     margin-top: 1rem;
-     justify-content: space-evenly;
-     columns: 2;
-     column-gap: 2em;
+     margin-top: 1.5rem;
+     padding: 2em;
+     border: 2px solid;
+     box-shadow: #000000 5px 5px;
  }
 
  #event-two {
-     display: flex;
+     display: inline-block;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
-     padding: .4em;
+     padding: 3em;
  }
 
- #overlay-text-three {
+ #three {
+     box-sizing: content-box;
      background-color: #ff8a14;
-     margin-top: 1rem;
-     justify-content: space-evenly;
-     columns: 2;
-     column-gap: 2em;
+     margin-top: 1.5rem;
+     padding: 2em;
+     border: 2px solid;
+     box-shadow: #000000 5px 5px;
+
  }
 
  #event-three {
-     display: flex;
+     display: inline-block;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
-     padding: .4em;
+     padding: 3em;
+     margin-left: -12em;
  }
 
- #overlay-text-four {
-     background-color: #ff8a14;
-     margin-top: 1rem;
-     justify-content: space-evenly;
-     columns: 2;
-     column-gap: 2em;
+ #four {
+    box-sizing: content-box;
+    background-color: #ff8a14;
+    padding: 2em;
+    border: 2px solid;
+    box-shadow: #000000 5px 5px;
  }
 
  #event-four {
-     display: flex;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #0b0b60;
+    padding: 3em;
+    margin-left: -19em;
+ }
+
+ 
+ #five {
+     box-sizing: content-box;
+     background-color: #ff8a14;
+     margin-top: 1.5rem;
+     padding: 2em;
+     border: 2px solid;
+     box-shadow: #000000 5px 5px;
+
+ }
+
+ #event-five {
+     display: inline-block;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
-     padding: .4em;
+     padding: .5em;
+     margin-left: -20em;
+ }
+
+
+
+ #six {
+    box-sizing: content-box;
+    background-color: #ff8a14;
+    margin-top: 1.5rem;
+    margin-left: 2em;
+    padding: 2em;
+    border: 2px solid;
+    box-shadow: #000000 5px 5px;
+ }
+
+ #event-six {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #0b0b60;
+    padding: .5em;
+    margin-left: -4em;
+ }
+
+ #seven{
+     box-sizing: content-box;
+     background-color: #ff8a14;
+     margin-top: 1.5rem;
+     padding: 2em;
+     border: 2px solid;
+     box-shadow: #000000 5px 5px;
+
+ }
+
+ #event-seven {
+     display: inline-block;
+     text-align: center;
+     font-size: 1.4rem;
+     color: #0b0b60;
+     padding: 2.4em;
+     margin-left: -20rem;
  }
 
  /* sign up page*/
@@ -306,6 +363,32 @@
         margin-top: -17em;
     }
 
+    /* event boxes */
+    #one {
+        display: column;
+        margin-left: -5rem;
+    }
+
+    #two {
+        margin-left: -0rem;
+    }
+
+    #three {
+        margin-left: -4.3rem;
+    }
+
+    #four {
+        margin-left: -4rem;
+    }
+
+    #six {
+        margin-left: -2rem;
+    }
+
+    #seven {
+        margin-left: -3rem;
+    }
+
     /* sign up box */
     #signup-form {
         height: 47%;
@@ -331,6 +414,11 @@
 
     li {
         display: inline;
+    }
+
+    /* event boxes */
+    #two {
+        margin-left: -2rem;
     }
 
     /* sign up form */
@@ -380,6 +468,35 @@
         margin-top: -38rem;
      }
 
+     /* event boxes */
+     #one {
+        margin-left: 3.5rem;
+     }
+
+     #two {
+        margin-left: 4rem;
+     }
+
+     #three {
+        margin-left: 5rem;
+     }
+
+     #four {
+        margin-left: 6rem;
+     }
+
+     #five {
+        margin-left: 12rem;
+     }
+
+     #six {
+        margin-left: 11rem;
+     }
+
+     #seven {
+        margin-left: 7rem;
+     }
+
      /* sign up */
      #signup-form {
         margin-left: 14rem;
@@ -394,7 +511,8 @@
 
  /* large device hover settings */
  @media screen and (min-width: 990px) {
-
+ 
+    /* nav bar */
      #home:hover {
          color: #9900cc;
      }
@@ -412,6 +530,34 @@
  /* media query for 1024px and over */
  @media screen and (min-width: 1024px) {
 
+    /* event boxes */
+    #one {
+        margin-left: 12rem;
+    }
+    #two {
+        margin-left: 11.5rem;
+    }
+
+    #three {
+        margin-left: 12rem;
+    }
+
+    #four {
+        margin-left: 14rem;
+    }
+
+    #five {
+        margin-left: 20rem;
+    }
+
+    #six {
+        margin-left: 19rem;
+    }
+
+    #seven {
+        margin-left: 15rem;
+    }
+    
     /* sign up box */
     #signup-form {
         margin-left: 18rem;
@@ -424,12 +570,62 @@
     }
  }
 
+ /* media query for 1440px and larger */
+ @media screen and (min-width: 1440px) {
+
+    /* event boxes */
+    #one {
+        margin-left: 25rem;
+    }
+
+    #two {
+        margin-left: 25rem;
+    }
+
+    #three {
+        margin-left: 25rem;
+    }
+
+    #four {
+        margin-left: 27.5rem;
+    }
+
+    #five {
+        margin-left: 33rem;
+    }
+
+    #six {
+        margin-left: 31rem;
+    }
+
+    #seven {
+        margin-left: 28rem;
+    }
+ }
+
  /* media query for 2560px and larger */
  @media screen and (min-width: 2560px) {
 
     /*overlay text*/
     .top-left {
         top: 50em;
+    }
+
+    /* event boxes */
+    #one {
+        margin-left: 31rem;
+    }
+
+    #three {
+        margin-left: 28rem;
+    }
+
+    #five {
+        margin-left: 40rem;
+    }
+
+    #seven {
+        margin-left: 62rem;
     }
 
     /* sign up box */
