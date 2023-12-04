@@ -419,7 +419,14 @@
 
 /* nav bar label */
     .nav-toggle-label {
-        margin-left: 21rem;
+        margin-left: 19rem;
+    }
+
+    /* drop down menu */
+    li {
+        display: inline;
+        font-size: 20px;
+        margin-left: 2rem;
     }
 
     li {
@@ -427,8 +434,12 @@
     }
 
     /* event boxes */
+    #one {
+        margin-left: 16rem;
+        margin-top: 0em;
+    }
     #two {
-        margin-left: -2rem;
+        margin-left: 1.5rem;
     }
 
     /* sign up form */
@@ -441,6 +452,7 @@
         margin-top: 2rem;
         margin-left: 2rem;
     }
+
  }
 
  /* media query for 425px phones and larger */
