@@ -365,27 +365,38 @@
 
     /* event boxes */
     #one {
-        margin-left: -5rem;
+        margin-left: 13rem;
+        margin-top: 0em;
     }
 
     #two {
-        margin-left: -0rem;
+        margin-left: 1rem;
+        margin-top: -2em;
     }
 
     #three {
-        margin-left: -4.3rem;
+        margin-left: 17rem;
+        margin-top: -2em;
     }
 
     #four {
-        margin-left: -4rem;
+        margin-left: 26rem;
+        margin-top: -2em;
+    }
+
+    #five {
+        margin-left: 28rem;
+        margin-top: 0em;
     }
 
     #six {
-        margin-left: -2rem;
+        margin-left: 5.5rem;
+        margin-top: 2em;
     }
 
     #seven {
-        margin-left: -3rem;
+        margin-left: 20rem;
+        margin-top: 0em;
     }
 
     /* sign up box */
