@@ -615,30 +615,37 @@
 
     /* event boxes */
     #one {
-        margin-left: 12rem;
+        margin-left: 30rem;
+        margin-top: 0em;
     }
     #two {
-        margin-left: 11.5rem;
+        margin-left: 13rem;
+        margin-top: -2em;
     }
 
     #three {
-        margin-left: 12rem;
+        margin-left: 31rem;
+        margin-top: -2em;
     }
 
     #four {
-        margin-left: 14rem;
+        margin-left: 43rem;
+        margin-top: -2em;
     }
 
     #five {
-        margin-left: 20rem;
+        margin-left: 49rem;
+        margin-top: 0em;
     }
 
     #six {
-        margin-left: 19rem;
+        margin-left: 26rem;
+        margin-top: 2em;
     }
 
     #seven {
-        margin-left: 15rem;
+        margin-left: 36rem;
+        margin-top: 1em;
     }
     
     /* sign up box */
