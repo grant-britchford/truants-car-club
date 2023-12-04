@@ -665,31 +665,45 @@
 
     /* event boxes */
     #one {
-        margin-left: 25rem;
+        column-count: 2;
+        margin-left: 33rem;
+        margin-top: 0em;
     }
 
     #two {
-        margin-left: 25rem;
+        column-count: 2;
+        margin-left: 13rem;
+        margin-top: -2em;
     }
 
     #three {
-        margin-left: 25rem;
+        column-count: 2;
+        margin-left: 32rem;
+        margin-top: -2em;
     }
 
     #four {
-        margin-left: 27.5rem;
+        column-count: 2;
+        margin-left: 46rem;
+        margin-top: -2em;
     }
 
     #five {
-        margin-left: 33rem;
+        column-count: 2;
+        margin-left: 53rem;
+        margin-top: 0em;
     }
 
     #six {
-        margin-left: 31rem;
+        column-count: 2;
+        margin-left: 29rem;
+        margin-top: 3em;
     }
 
     #seven {
-        margin-left: 28rem;
+        column-count: 2;
+        margin-left: 38rem;
+        margin-top: 2em;
     }
  }
 
