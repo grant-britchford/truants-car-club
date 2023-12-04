@@ -477,11 +477,48 @@
 
     /* nav bar label */
     .nav-toggle-label {
-        margin-left: 24rem;
+        margin-left: 21rem;
     }
 
     li {
         display: inline;
+        font-size: 20px;
+    }
+
+    /* events boxes */
+    #one {
+        margin-top: 0em;
+        margin-left: 17rem;
+    }
+
+    #two {
+        margin-top: -2em;
+        margin-left: 2rem;
+    }
+
+    #three {
+        margin-top: -2em;
+        margin-left: 19rem;
+    }
+
+    #four {
+        margin-top: -2em;
+        margin-left: 29rem;
+    }
+
+    #five {
+        margin-top: 0em;
+        margin-left: 31rem;
+    }
+
+    #six {
+        margin-top: 2em;
+        margin-left: 8rem;
+    }
+
+    #seven {
+        margin-top: 1em;
+        margin-left: 22rem;
     }
 
     /* submit button */
