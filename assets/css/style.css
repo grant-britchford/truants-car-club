@@ -435,11 +435,28 @@
 
     /* event boxes */
     #one {
-        margin-left: 16rem;
+        margin-left: 15rem;
         margin-top: 0em;
     }
+    
     #two {
-        margin-left: 1.5rem;
+        margin-left: 1rem;
+        margin-top: -2em;
+    }
+
+    #three {
+        margin-left: 18rem;
+        margin-top: -2em;
+    }
+
+    #four {
+        margin-top: -2em;
+        margin-left: 28rem;
+    }
+
+    #five {
+        margin-top: 0em;
+        margin-left: 28rem;
     }
 
     /* sign up form */
