@@ -717,19 +717,38 @@
 
     /* event boxes */
     #one {
-        margin-left: 31rem;
+        margin-top: 2em;
+        margin-left: 27rem;
+    }
+
+    #two {
+        margin-top: 2em;
+        margin-left: 37;
     }
 
     #three {
-        margin-left: 28rem;
+        margin-top: 2em;
+        margin-left: 20rem;
+    }
+
+    #four {
+        margin-top: 2em;
+        margin-left: 25rem;
     }
 
     #five {
-        margin-left: 40rem;
+        margin-top: 2em;
+        margin-left: 30rem;
+    }
+
+    #six {
+        margin-top: 2em;
+        margin-left: 27;
     }
 
     #seven {
-        margin-left: 62rem;
+        margin-top: 2em;
+        margin-left: 37rem;
     }
 
     /* sign up box */
