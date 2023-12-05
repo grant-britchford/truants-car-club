@@ -117,7 +117,7 @@
  }
 
  /* events page */
-  main {
+    main {
     flex: 1 0 auto;
     display: flex;
     width: 100vw;
@@ -133,13 +133,12 @@
  }
 
  #event-one {
-     display: inline-block;
+     display: -ms-inline-flexbox;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 4rem;
-     margin-right: 1em;
-     margin-left: -10em;
+     margin-left: -33rem;
  }
 
  #two {
@@ -152,11 +151,13 @@
  }
 
  #event-two {
-     display: inline-block;
+     display: -ms-inline-block;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
-     padding: 3em;
+     padding: 4em;
+     margin-left: 19rem;
+     margin-top: 2em;
  }
 
  #three {
@@ -170,12 +171,13 @@
  }
 
  #event-three {
-     display: inline-block;
+     display: -ms-inline-flexbox;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 3em;
-     margin-left: -12em;
+     margin-left: 1rem;
+     margin-top: -1em;
  }
 
  #four {
@@ -187,12 +189,13 @@
  }
 
  #event-four {
-    display: inline-block;
+    display: -ms-inline-flexbox;
     text-align: center;
     font-size: 1.4rem;
     color: #0b0b60;
     padding: 3em;
-    margin-left: -19em;
+    margin-left: -13rem;
+    margin-top: 0em;
  }
 
  
@@ -207,12 +210,13 @@
  }
 
  #event-five {
-     display: inline-block;
+     display: -ms-inline-flexbox;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
      padding: .5em;
-     margin-left: -20em;
+     margin-left: -19rem;
+     margin-top: 0.5em;
  }
 
 
@@ -228,12 +232,13 @@
  }
 
  #event-six {
-    display: inline-block;
+    display: -ms-inline-flexbox;
     text-align: center;
     font-size: 1.4rem;
     color: #0b0b60;
     padding: .5em;
-    margin-left: -4em;
+    margin-left: 5rem;
+    margin-top: 0em;
  }
 
  #seven{
@@ -247,12 +252,13 @@
  }
 
  #event-seven {
-     display: inline-block;
+     display: -ms-inline-flexbox;
      text-align: center;
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 2.4em;
-     margin-left: -20rem;
+     margin-left: -4rem;
+     margin-top: 0em;
  }
 
  /* sign up page*/
@@ -365,8 +371,8 @@
 
     /* event boxes */
     #one {
-        margin-left: 13rem;
-        margin-top: 0em;
+        margin-left: 1rem;
+        margin-top: 3em;
     }
 
     #two {
@@ -436,7 +442,7 @@
     /* event boxes */
     #one {
         margin-left: 15rem;
-        margin-top: 0em;
+        margin-top: 1em;
     }
     
     #two {
