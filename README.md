@@ -8,6 +8,7 @@
 - Features
 - Improvements
 - Testing
+- Bugs
 - Deployment
 - Credits
 - Acknowledgements
@@ -108,6 +109,13 @@ Testing was carried out on the sign up form to make sure that the information wo
 
 - Sign up form validation
 ![email validation](https://github.com/grant-britchford/truants-car-club/assets/145594323/1484517f-f440-4d62-97b2-af7d5f66e213)
+
+### Bugs
+
+Solved bugs
+
+- Page layout issues on the events page.
+- Index page hero image was blurry so this was changed over to a new more defined image.
 
 ### Deployment
 
