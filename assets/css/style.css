@@ -101,7 +101,7 @@
  .top-left {
     display: flex;
     flex-direction: column;
-    top: 40em;
+    top: 33em;
     left: .5em;
     width: 37%;
     padding: 1rem;
@@ -265,7 +265,7 @@
  #signup {
      display: flex;
      height: 100vh;
-     width: 100%;
+     width: 100vw;
      background: url("../images/pexels-andras-stefuca-17852356.jpg") no-repeat center center/cover;
  }
 
@@ -364,65 +364,58 @@
 
     /* overlay text */
     #overlay-text {
-        font-size: 25px;
-        margin-top: -17em;
+        font-size: 12px;
+        margin-top: -9em;
     }
 
     /* event boxes */
     #one {
-        display: -ms-inline-flexbox;
-        width: 80vw;
-        margin-left: 28rem;
-        margin-top: 3em;
+       width: 80vw;
+       margin-top: 0em;
+       margin-left: 27rem;
     }
 
     #two {
-        display: -ms-inline-flexbox;
-        width: 80vw;
-        margin-left: 3rem;
-        margin-top: -2em;
+       width: 80vw;
+       margin-top: -4em;
+       margin-left: -26rem;
     }
 
     #three {
-        display: -ms-inline-flexbox;
         width: 80vw;
-        margin-left: 23rem;
+        margin-left: -7rem;
         margin-top: -2em;
     }
 
     #four {
-        display: -ms-inline-flexbox;
         width: 80vw;
-        margin-left: 37rem;
+        margin-left: 7rem;
         margin-top: -2em;
     }
 
     #five {
-        display: -ms-inline-flexbox;
         width: 80vw;
-        margin-left: 46rem;
+        margin-left: 17rem;
         margin-top: 0em;
     }
 
     #six {
-        display: -ms-inline-flexbox;
         width: 80vw;
-        margin-left: 22rem;
+        margin-left: -7rem;
         margin-top: 3em;
     }
 
     #seven {
-        display: -ms-inline-flexbox;
         width: 80vw;
-        margin-left: 29rem;
+        margin-left: -1rem;
         margin-top: 1em;
     }
 
     /* sign up box */
     #signup-form {
-        height: 47%;
+        height: 85vh;
         margin-left: 7rem;
-        width: 40%;
+        width: 40%;;
     }
 
     /* sign up form submit button */
@@ -459,33 +452,38 @@
     }
     
     #two {
-        margin-left: 3.5rem;
+        margin-left: -25rem;
         margin-top: -2em;
     }
 
     #three {
-        margin-left: 23rem;
-        margin-top: -2em;
+        margin-left: -6rem;
+        margin-top: 2em;
     }
 
     #four {
-        margin-top: -2em;
-        margin-left: 37rem;
+        margin-top: 2em;
+        margin-left: 8rem;
     }
 
     #five {
-        margin-top: 0em;
-        margin-left: 46.6rem;
+        margin-top: 3em;
+        margin-left: 18rem;
     }
 
     #six {
-        margin-left: 22.5rem;
+        margin-left: -6rem;
+        margin-top: 5em;
+    }
+
+    #seven {
         margin-top: 3em;
+        margin-left: 0rem;
     }
 
     /* sign up form */
     #signup-form {
-        height: 44%;
+        height: 84vh;
     }
 
     /* submit button */
@@ -517,32 +515,36 @@
 
     #two {
         margin-top: -2em;
-        margin-left: 4rem;
+        margin-left: -26rem;
     }
 
     #three {
-        margin-top: -2em;
-        margin-left: 23rem;
+        margin-top: 1em;
+        margin-left: -7rem;
     }
 
     #four {
-        margin-top: -2em;
-        margin-left: 37rem;
+        margin-top: 1em;
+        margin-left: 7rem;
     }
 
     #five {
-        margin-top: 0em;
-        margin-left: 47rem;
+        margin-top: 3em;
+        margin-left: 17rem;
     }
 
     #six {
-        margin-top: 3em;
-        margin-left: 23rem;
+        margin-top: 6em;
+        margin-left: -7rem;
     }
 
     #seven {
-        margin-top: 1em;
-        margin-left: 29rem;
+        margin-top: 3em;
+        margin-left: 0rem;
+    }
+
+    #signup-form {
+        height: 76vh;
     }
 
     /* submit button */
@@ -570,7 +572,8 @@
      }
 
      #overlay-text {
-        margin-top: -38rem;
+        margin-top: -17rem;
+        font-size: 15px;
      }
 
      /* event boxes */
@@ -580,43 +583,46 @@
      }
 
      #two {
-        margin-left: 6rem;
+        margin-left: -23rem;
         margin-top: -2em;
      }
 
      #three {
-        margin-left: 25.5rem;
-        margin-top: -2em;
-     }
-
-     #four {
-        margin-left: 39.5rem;
-        margin-top: -2em;
-     }
-
-     #five {
-        margin-left: 49rem;
+        margin-left: -3rem;
         margin-top: 0em;
      }
 
-     #six {
-        margin-left: 25rem;
+     #four {
+        margin-left: 11rem;
+        margin-top: 0em;
+     }
+
+     #five {
+        margin-left: 20.5rem;
         margin-top: 2em;
      }
 
+     #six {
+        margin-left: -3rem;
+        margin-top: 5em;
+     }
+
      #seven {
-        margin-left: 31.3rem;
-        margin-top: 1em;
+        margin-left: 3rem;
+        margin-top: 3em;
      }
 
      /* sign up */
      #signup-form {
         margin-left: 14rem;
-        height: 38%;
+        height: 50vh;
+        width: 60vw;
+        font-size: 10px;
      }
 
      .join-button {
-        margin-left:7rem;
+        margin-left:16rem;
+        margin-top: 1rem;
      }
 
  }
@@ -680,7 +686,7 @@
     /* sign up box */
     #signup-form {
         margin-left: 18rem;
-        height: 32%;
+        height: 39vh;
     }
 
     /* submit button */
@@ -734,6 +740,7 @@
         margin-left: 35rem;
         margin-top: 2em;
     }
+
  }
 
  /* media query for 2560px and larger */
