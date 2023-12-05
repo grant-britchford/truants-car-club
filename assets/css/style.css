@@ -650,37 +650,37 @@
 
     /* event boxes */
     #one {
-        margin-left: 34rem;
+        margin-left: 32rem;
         margin-top: 0em;
     }
     #two {
-        margin-left: 9.5rem;
+        margin-left: -22rem;
         margin-top: -2em;
     }
 
     #three {
-        margin-left: 29rem;
-        margin-top: -2em;
-    }
-
-    #four {
-        margin-left: 43rem;
-        margin-top: -2em;
-    }
-
-    #five {
-        margin-left: 52.4rem;
+        margin-left: -3rem;
         margin-top: 0em;
     }
 
-    #six {
-        margin-left: 28rem;
+    #four {
+        margin-left: 11rem;
+        margin-top: 0em;
+    }
+
+    #five {
+        margin-left: 21rem;
         margin-top: 2em;
     }
 
+    #six {
+        margin-left: -3rem;
+        margin-top: 5em;
+    }
+
     #seven {
-        margin-left: 34.5rem;
-        margin-top: 1em;
+        margin-left: 3.5rem;
+        margin-top: 3em;
     }
     
     /* sign up box */
@@ -707,38 +707,38 @@
 
     #two {
         column-count: 2;
-        margin-left: 9.5rem;
+        margin-left: -20rem;
         margin-top: -2em;
     }
 
     #three {
         column-count: 2;
-        margin-left: 29rem;
-        margin-top: -2em;
+        margin-left: 0rem;
+        margin-top: 1em;
     }
 
     #four {
         column-count: 2;
-        margin-left: 43rem;
-        margin-top: -2em;
+        margin-left: 14rem;
+        margin-top: 1em;
     }
 
     #five {
         column-count: 2;
-        margin-left: 52.5rem;
-        margin-top: 0em;
+        margin-left: 23rem;
+        margin-top: 2em;
     }
 
     #six {
         column-count: 2;
-        margin-left: 28.5rem;
-        margin-top: 3em;
+        margin-left: -1rem;
+        margin-top: 5em;
     }
 
     #seven {
         column-count: 2;
-        margin-left: 35rem;
-        margin-top: 2em;
+        margin-left: 5rem;
+        margin-top: 3em;
     }
 
  }
@@ -759,32 +759,32 @@
 
     #two {
         margin-top: 2em;
-        margin-left: 14rem;
+        margin-left: -15rem;
     }
 
     #three {
-        margin-top: 2em;
-        margin-left: 33rem;
+        margin-top: 3em;
+        margin-left: 5rem;
     }
 
     #four {
-        margin-top: 2em;
-        margin-left: 47rem;
+        margin-top: 3em;
+        margin-left: 19rem;
     }
 
     #five {
-        margin-top: 3em;
-        margin-left: 57rem;
+        margin-top: 5em;
+        margin-left: 29rem;
     }
 
     #six {
-        margin-top: 5em;
-        margin-left: 33.5rem;
+        margin-top: 7em;
+        margin-left: 6rem;
     }
 
     #seven {
-        margin-top: 4em;
-        margin-left: 40rem;
+        margin-top:6em;
+        margin-left: 12rem;
     }
 
     /* sign up box */
