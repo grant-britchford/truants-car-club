@@ -15,7 +15,7 @@
 
 ## Demo
 
-![Am i Responsive](https://github.com/grant-britchford/truants-car-club/assets/145594323/3264c11e-421a-4c6a-8a84-9f6bcc39308d)
+![Am i Responsive](https://github.com/grant-britchford/truants-car-club/blob/main/assets/images/Screenshot%20(51).png)
 
 #### The live link is: <https://grant-britchford.github.io/truants-car-club/>
 
