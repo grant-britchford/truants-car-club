@@ -274,11 +274,10 @@
  }
 
  #signup-form {
-     
+     box-sizing: border-box;
      border: 2px solid;
      background-color: #424242;
      color: #dfdffb;
-     border: 10px;
      text-align: center;
      margin-top: 4%;
      font-size: 1em;
