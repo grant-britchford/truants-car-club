@@ -102,7 +102,7 @@
     display: flex;
     flex-direction: column;
     top: 33em;
-    left: .5em;
+    left: 2em;
     width: 37%;
     padding: 1rem;
  }
@@ -138,7 +138,7 @@
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 4rem;
-     margin-left: -33rem;
+     margin-left: -31rem;
  }
 
  #two {
@@ -156,7 +156,7 @@
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 4em;
-     margin-left: 19rem;
+     margin-left: 21rem;
      margin-top: 2em;
  }
 
@@ -176,7 +176,7 @@
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 3em;
-     margin-left: 1rem;
+     margin-left: 3.5rem;
      margin-top: -1em;
  }
 
@@ -194,7 +194,7 @@
     font-size: 1.4rem;
     color: #0b0b60;
     padding: 3em;
-    margin-left: -13rem;
+    margin-left: -10.5rem;
     margin-top: 0em;
  }
 
@@ -215,7 +215,7 @@
      font-size: 1.4rem;
      color: #0b0b60;
      padding: .5em;
-     margin-left: -19rem;
+     margin-left: -17rem;
      margin-top: 0.5em;
  }
 
@@ -237,7 +237,7 @@
     font-size: 1.4rem;
     color: #0b0b60;
     padding: .5em;
-    margin-left: 5rem;
+    margin-left: 7rem;
     margin-top: 0em;
  }
 
@@ -257,7 +257,7 @@
      font-size: 1.4rem;
      color: #0b0b60;
      padding: 2.4em;
-     margin-left: -4rem;
+     margin-left: -2rem;
      margin-top: 0em;
  }
 
@@ -293,7 +293,6 @@
  }
 
  .text-input {
-     text-align: center;
      background: transparent;
      max-width: 100%;
      height: 25px;
@@ -371,49 +370,49 @@
     #one {
        width: 80vw;
        margin-top: 0em;
-       margin-left: 27rem;
+       margin-left: 26rem;
     }
 
     #two {
        width: 80vw;
        margin-top: -4em;
-       margin-left: -26rem;
+       margin-left: -28rem;
     }
 
     #three {
         width: 80vw;
-        margin-left: -7rem;
+        margin-left: -9rem;
         margin-top: -2em;
     }
 
     #four {
         width: 80vw;
-        margin-left: 7rem;
+        margin-left: 5.5rem;
         margin-top: -2em;
     }
 
     #five {
         width: 80vw;
-        margin-left: 17rem;
+        margin-left: 15.5rem;
         margin-top: 0em;
     }
 
     #six {
         width: 80vw;
-        margin-left: -7rem;
+        margin-left: -9rem;
         margin-top: 3em;
     }
 
     #seven {
         width: 80vw;
-        margin-left: -1rem;
+        margin-left: -2.5rem;
         margin-top: 1em;
     }
 
     /* sign up box */
     #signup-form {
-        height: 85vh;
-        margin-left: 7rem;
+        height: 35rem;
+        margin-left: 6rem;
         width: 40%;;
     }
 
@@ -446,43 +445,47 @@
 
     /* event boxes */
     #one {
-        margin-left: 28rem;
+        margin-left: 26rem;
         margin-top: 1em;
     }
     
     #two {
-        margin-left: -25rem;
+        margin-left: -27rem;
         margin-top: -2em;
     }
 
     #three {
-        margin-left: -6rem;
+        margin-left: -8rem;
         margin-top: 2em;
     }
 
     #four {
         margin-top: 2em;
-        margin-left: 8rem;
+        margin-left: 6rem;
     }
 
     #five {
         margin-top: 3em;
-        margin-left: 18rem;
+        margin-left: 16rem;
     }
 
     #six {
-        margin-left: -6rem;
-        margin-top: 5em;
+        margin-left: -8rem;
+        margin-top: 4em;
     }
 
     #seven {
         margin-top: 3em;
-        margin-left: 0rem;
+        margin-left: -2rem;
     }
 
     /* sign up form */
     #signup-form {
-        height: 84vh;
+        height: 33rem;
+    }
+
+    .radio-buttons {
+        align-items: center;
     }
 
     /* submit button */
@@ -498,7 +501,7 @@
 
     /* nav bar label */
     .nav-toggle-label {
-        margin-left: 23rem;
+        margin-left: 24rem;
     }
 
     li {
@@ -509,46 +512,52 @@
     /* events boxes */
     #one {
         margin-top: 0em;
-        margin-left: 28rem;
+        margin-left: 27rem;
     }
 
     #two {
         margin-top: -2em;
-        margin-left: -26rem;
+        margin-left: -27rem;
     }
 
     #three {
         margin-top: 1em;
-        margin-left: -7rem;
+        margin-left: -8rem;
     }
 
     #four {
         margin-top: 1em;
-        margin-left: 7rem;
+        margin-left: 6rem;
     }
 
     #five {
         margin-top: 3em;
-        margin-left: 17rem;
+        margin-left: 16rem;
     }
 
     #six {
         margin-top: 6em;
-        margin-left: -7rem;
+        margin-left: -8rem;
     }
 
     #seven {
         margin-top: 3em;
-        margin-left: 0rem;
+        margin-left: -1.5rem;
     }
 
     #signup-form {
-        height: 76vh;
+        height: 33rem;
+        margin-left: 8rem;
+    }
+
+    .radio-buttons {
+        align-items: center;
     }
 
     /* submit button */
     .join-button {
-        margin-left: 3rem;
+       text-align: center;
+       margin-left: 2.4em;
     }
 
     footer {
@@ -577,50 +586,54 @@
 
      /* event boxes */
      #one {
-        margin-left: 30.5rem;
+        margin-left: 29rem;
         margin-top: 0em;
      }
 
      #two {
-        margin-left: -23rem;
+        margin-left: -24.6rem;
         margin-top: -2em;
      }
 
      #three {
-        margin-left: -3rem;
+        margin-left: -5.7rem;
         margin-top: 0em;
      }
 
      #four {
-        margin-left: 11rem;
+        margin-left: 8.3rem;
         margin-top: 0em;
      }
 
      #five {
-        margin-left: 20.5rem;
+        margin-left: 18.3rem;
         margin-top: 2em;
      }
 
      #six {
-        margin-left: -3rem;
+        margin-left: -5.7rem;
         margin-top: 5em;
      }
 
      #seven {
-        margin-left: 3rem;
+        margin-left: 0.7rem;
         margin-top: 3em;
      }
 
      /* sign up */
      #signup-form {
         margin-left: 14rem;
-        height: 50vh;
-        width: 60vw;
+        height: 35em;
         font-size: 10px;
      }
 
+     .radio-buttons {
+        text-align: center;
+     }
+
      .join-button {
-        margin-left:16rem;
+       text-align: center;
+       margin-left: 7rem;
         margin-top: 1rem;
      }
 
@@ -649,43 +662,43 @@
 
     /* event boxes */
     #one {
-        margin-left: 32rem;
+        margin-left: 31rem;
         margin-top: 0em;
     }
     #two {
-        margin-left: -22rem;
+        margin-left: -22.5rem;
         margin-top: -2em;
     }
 
     #three {
-        margin-left: -3rem;
+        margin-left: -3.8rem;
         margin-top: 0em;
     }
 
     #four {
-        margin-left: 11rem;
+        margin-left: 10rem;
         margin-top: 0em;
     }
 
     #five {
-        margin-left: 21rem;
+        margin-left: 20rem;
         margin-top: 2em;
     }
 
     #six {
-        margin-left: -3rem;
+        margin-left: -4rem;
         margin-top: 5em;
     }
 
     #seven {
-        margin-left: 3.5rem;
+        margin-left: 2.5rem;
         margin-top: 3em;
     }
     
     /* sign up box */
     #signup-form {
         margin-left: 18rem;
-        height: 39vh;
+        height: 36em;
     }
 
     /* submit button */
@@ -700,37 +713,37 @@
     /* event boxes */
     #one {
         column-count: 2;
-        margin-left: 34rem;
+        margin-left: 33rem;
         margin-top: 0em;
     }
 
     #two {
         column-count: 2;
-        margin-left: -20rem;
+        margin-left: -20.4rem;
         margin-top: -2em;
     }
 
     #three {
         column-count: 2;
-        margin-left: 0rem;
+        margin-left: -1.5rem;
         margin-top: 1em;
     }
 
     #four {
         column-count: 2;
-        margin-left: 14rem;
+        margin-left: 12.5rem;
         margin-top: 1em;
     }
 
     #five {
         column-count: 2;
-        margin-left: 23rem;
+        margin-left: 22.4rem;
         margin-top: 2em;
     }
 
     #six {
         column-count: 2;
-        margin-left: -1rem;
+        margin-left: -1.5rem;
         margin-top: 5em;
     }
 
